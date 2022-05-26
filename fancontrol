@@ -42,6 +42,7 @@ PIDFILE="/var/run/fancontrol.pid"
 
 #DEBUG=1
 MAX=255
+MIN=30
 
 function LoadConfig
 {
@@ -413,7 +414,7 @@ function pwmdisable()
 	# No enable file? Just set to max
 	if [ ! -f $ENABLE ]
 	then
-		echo $MAX > $1
+		echo $MIN > $1
 		return 0
 	fi
 
