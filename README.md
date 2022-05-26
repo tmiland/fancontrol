@@ -5,6 +5,7 @@
  - Set MIN value if no enable file
    - Simply set fanspeed to MIN value if no enable file to avoid NOISE
    - Default is MAX, which creates alot of noise on shutdown/reboot.
+   - Default MIN value: 30 PWM
 
 ### To use this script:
 
