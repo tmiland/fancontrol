@@ -411,7 +411,7 @@ function pwmdisable()
 {
 	local ENABLE=${1}_enable
 
-	# No enable file? Just set to max
+	# No enable file? Just set to min
 	if [ ! -f $ENABLE ]
 	then
 		echo $MIN > $1
@@ -465,7 +465,7 @@ function pwmdisable()
 
 	# It didn't work, try pwmN_enable=1 pwmN=255
 	echo 1 > $ENABLE 2> /dev/null
-	echo $MAX > $1
+	echo $MIN > $1
 	if [ "$(cat $ENABLE)" -eq 1 -a "$(cat $1)" -ge 190 ]
 	then
 		# Success
@@ -506,7 +506,7 @@ function pwmenable()
 			return 1
 		fi
 	fi
-	echo $MAX > $1
+	echo $MIN > $1
 }
 
 function restorefans()
