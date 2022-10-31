@@ -17,6 +17,10 @@ Download this script:
 ```bash
 sudo wget -O /usr/sbin/fancontrol https://github.com/tmiland/fancontrol/raw/main/fancontrol
 ```
+Set execute permissions:
+```
+sudo chmod +x /usr/sbin/fancontrol
+```
 Restart fancontrol:
 ```bash
 systemctl restart fancontrol
