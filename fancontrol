@@ -42,7 +42,7 @@ PIDFILE="/var/run/fancontrol.pid"
 
 #DEBUG=1
 MAX=255
-MIN=30
+MIN=90
 
 function LoadConfig
 {
