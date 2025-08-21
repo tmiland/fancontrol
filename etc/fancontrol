@@ -1,13 +1,13 @@
 # This file was created by Fancontrol-GUI
 INTERVAL=10
-DEVPATH=hwmon1=devices/pci0000:00/0000:00:03.1/0000:2b:00.0/0000:2c:00.0/0000:2d:00.0 hwmon5=devices/platform/nct6687.2592 
-DEVNAME=hwmon1=amdgpu hwmon5=nct6687 
-FCTEMPS=hwmon1/pwm1=hwmon1/temp1_input hwmon5/pwm1=hwmon5/temp1_input hwmon5/pwm2=hwmon5/temp5_input hwmon5/pwm3=hwmon5/temp2_input hwmon5/pwm4=hwmon5/temp2_input hwmon5/pwm5=hwmon5/temp2_input hwmon5/pwm6=hwmon5/temp2_input hwmon5/pwm7=hwmon5/temp2_input hwmon5/pwm8=hwmon5/temp1_input 
-FCFANS=hwmon1/pwm1=hwmon1/fan1_input hwmon5/pwm1=hwmon5/fan1_input hwmon5/pwm2=hwmon5/fan2_input hwmon5/pwm3=hwmon5/fan3_input hwmon5/pwm4=hwmon5/fan4_input hwmon5/pwm5=hwmon5/fan5_input hwmon5/pwm6=hwmon5/fan6_input hwmon5/pwm7=hwmon5/fan7_input hwmon5/pwm8=hwmon5/fan8_input 
-MINTEMP=hwmon1/pwm1=46 hwmon5/pwm1=55 hwmon5/pwm2=56 hwmon5/pwm3=40 hwmon5/pwm4=40 hwmon5/pwm5=40 hwmon5/pwm6=55 hwmon5/pwm7=50 hwmon5/pwm8=55 
-MAXTEMP=hwmon1/pwm1=75 hwmon5/pwm1=75 hwmon5/pwm2=70 hwmon5/pwm3=60 hwmon5/pwm4=60 hwmon5/pwm5=60 hwmon5/pwm6=75 hwmon5/pwm7=65 hwmon5/pwm8=75 
-MINSTART=hwmon1/pwm1=13 hwmon5/pwm1=13 hwmon5/pwm2=255 hwmon5/pwm3=13 hwmon5/pwm4=13 hwmon5/pwm5=13 hwmon5/pwm6=13 hwmon5/pwm7=13 hwmon5/pwm8=13 
-MINSTOP=hwmon1/pwm1=0 hwmon5/pwm1=0 hwmon5/pwm2=0 hwmon5/pwm3=0 hwmon5/pwm4=0 hwmon5/pwm5=0 hwmon5/pwm6=0 hwmon5/pwm7=0 hwmon5/pwm8=0 
-MINPWM=hwmon1/pwm1=0 hwmon5/pwm1=0 hwmon5/pwm2=0 hwmon5/pwm3=0 hwmon5/pwm4=0 hwmon5/pwm5=0 hwmon5/pwm6=0 hwmon5/pwm7=0 hwmon5/pwm8=0 
-MAXPWM=hwmon1/pwm1=255 hwmon5/pwm1=255 hwmon5/pwm2=255 hwmon5/pwm3=255 hwmon5/pwm4=255 hwmon5/pwm5=255 hwmon5/pwm6=255 hwmon5/pwm7=255 hwmon5/pwm8=255 
-AVERAGE=hwmon1/pwm1=2 hwmon5/pwm1=2 hwmon5/pwm2=1 hwmon5/pwm3=2 hwmon5/pwm4=2 hwmon5/pwm5=2 hwmon5/pwm6=2 hwmon5/pwm7=2 hwmon5/pwm8=2 
+DEVPATH=hwmon2=devices/pci0000:00/0000:00:03.1/0000:2b:00.0/0000:2c:00.0/0000:2d:00.0 hwmon4=devices/platform/nct6687.2592 
+DEVNAME=hwmon2=amdgpu hwmon4=nct6687 
+FCTEMPS=hwmon2/pwm1=hwmon2/temp1_input hwmon4/pwm1=hwmon4/temp1_input hwmon4/pwm2=hwmon4/temp5_input hwmon4/pwm3=hwmon4/temp2_input hwmon4/pwm4=hwmon4/temp2_input hwmon4/pwm5=hwmon4/temp2_input hwmon4/pwm6=hwmon4/temp2_input hwmon4/pwm7=hwmon4/temp2_input hwmon4/pwm8=hwmon4/temp1_input 
+FCFANS=hwmon2/pwm1=hwmon2/fan1_input hwmon4/pwm1=hwmon4/fan1_input hwmon4/pwm2=hwmon4/fan2_input hwmon4/pwm3=hwmon4/fan3_input hwmon4/pwm4=hwmon4/fan4_input hwmon4/pwm5=hwmon4/fan5_input hwmon4/pwm6=hwmon4/fan6_input hwmon4/pwm7=hwmon4/fan7_input hwmon4/pwm8=hwmon4/fan8_input 
+MINTEMP=hwmon2/pwm1=46 hwmon4/pwm1=55 hwmon4/pwm2=56 hwmon4/pwm3=40 hwmon4/pwm4=40 hwmon4/pwm5=40 hwmon4/pwm6=55 hwmon4/pwm7=50 hwmon4/pwm8=55 
+MAXTEMP=hwmon2/pwm1=75 hwmon4/pwm1=70 hwmon4/pwm2=70 hwmon4/pwm3=60 hwmon4/pwm4=60 hwmon4/pwm5=60 hwmon4/pwm6=75 hwmon4/pwm7=65 hwmon4/pwm8=75 
+MINSTART=hwmon2/pwm1=13 hwmon4/pwm1=13 hwmon4/pwm2=255 hwmon4/pwm3=13 hwmon4/pwm4=13 hwmon4/pwm5=13 hwmon4/pwm6=13 hwmon4/pwm7=13 hwmon4/pwm8=13 
+MINSTOP=hwmon2/pwm1=0 hwmon4/pwm1=0 hwmon4/pwm2=0 hwmon4/pwm3=0 hwmon4/pwm4=0 hwmon4/pwm5=0 hwmon4/pwm6=0 hwmon4/pwm7=0 hwmon4/pwm8=0 
+MINPWM=hwmon2/pwm1=0 hwmon4/pwm1=0 hwmon4/pwm2=0 hwmon4/pwm3=0 hwmon4/pwm4=0 hwmon4/pwm5=0 hwmon4/pwm6=0 hwmon4/pwm7=0 hwmon4/pwm8=0 
+MAXPWM=hwmon2/pwm1=255 hwmon4/pwm1=255 hwmon4/pwm2=255 hwmon4/pwm3=255 hwmon4/pwm4=255 hwmon4/pwm5=255 hwmon4/pwm6=255 hwmon4/pwm7=255 hwmon4/pwm8=255 
+AVERAGE=hwmon2/pwm1=2 hwmon4/pwm1=2 hwmon4/pwm2=1 hwmon4/pwm3=2 hwmon4/pwm4=2 hwmon4/pwm5=2 hwmon4/pwm6=2 hwmon4/pwm7=2 hwmon4/pwm8=2 
